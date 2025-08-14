@@ -1,0 +1,17 @@
+{
+  "name": "agriai-pro",
+  "private": true,
+  "packageManager": "pnpm@9.1.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @agriai/web dev",
+    "dev:api": "pnpm --filter @agriai/api dev",
+    "build": "pnpm -r build",
+    "start": "pnpm --filter @agriai/api start",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.5.4"
+  }
+}

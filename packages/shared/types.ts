@@ -1,0 +1,1 @@
+export type Crop = 'Oranges'|'Lemons'|'Grapefruit'|'Naartjies'|'Avocados'|'Bananas'|'Litchis'|'Mangoes';
